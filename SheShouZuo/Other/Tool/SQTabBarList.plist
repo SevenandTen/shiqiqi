@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>image2</key>
+		<string>icon_tb_home_selected@2x.png</string>
+		<key>image1</key>
+		<string>icon_tb_home@2x.png</string>
+		<key>title</key>
+		<string>首页</string>
+		<key>controllerName</key>
+		<string>SQHomeController</string>
+	</dict>
+	<dict>
+		<key>image2</key>
+		<string>icon_tb_community_selected@2x.png</string>
+		<key>image1</key>
+		<string>icon_tb_community@2x.png</string>
+		<key>title</key>
+		<string>学习</string>
+		<key>controllerName</key>
+		<string>SQStudyController</string>
+	</dict>
+	<dict>
+		<key>image2</key>
+		<string>icon_tb_organization_selected@2x.png</string>
+		<key>image1</key>
+		<string>icon_tb_organization@2x.png</string>
+		<key>title</key>
+		<string>图库</string>
+		<key>controllerName</key>
+		<string>SQImageController</string>
+	</dict>
+	<dict>
+		<key>image2</key>
+		<string>icon_tb_find_selected@2x.png</string>
+		<key>image1</key>
+		<string>icon_tb_find@2x.png</string>
+		<key>title</key>
+		<string>发现</string>
+		<key>controllerName</key>
+		<string>SQFindController</string>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="15C50" minimumToolsVersion="Xcode 7.0">
+    <entity name="ED_IMAttachedFile" representedClassName="ED_IMAttachedFile" isAbstract="YES" syncable="YES">
+        <attribute name="isLocal_" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="thumbSize_" attributeType="Transformable" syncable="YES"/>
+        <attribute name="thumbUrl_" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="message" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ED_IMMessage" inverseName="attachedFile" inverseEntity="ED_IMMessage" syncable="YES"/>
+    </entity>
+    <entity name="ED_IMAttachedImage" representedClassName="ED_IMAttachedImage" parentEntity="ED_IMAttachedFile" syncable="YES">
+        <attribute name="size_" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="url_" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ED_IMBaseMessage" representedClassName="ED_IMBaseMessage" isAbstract="YES" parentEntity="ED_IMLoadContactEntity" syncable="YES">
+        <attribute name="content" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="sendDate" attributeType="Date" indexed="YES" syncable="YES"/>
+        <attribute name="toUniqueID" attributeType="String" indexed="YES" syncable="YES"/>
+        <relationship name="conversation" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ED_IMConversation" inverseName="lastMessage" inverseEntity="ED_IMConversation" syncable="YES"/>
+    </entity>
+    <entity name="ED_IMContact" representedClassName="ED_IMContact" syncable="YES">
+        <attribute name="avatarURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="conversationID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="info" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isTeacher_" attributeType="Boolean" defaultValueString="NO" indexed="YES" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="relation_" attributeType="Integer 16" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <attribute name="type_" attributeType="Integer 16" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <relationship name="conversation" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ED_IMConversation" inverseName="contact" inverseEntity="ED_IMConversation" syncable="YES"/>
+    </entity>
+    <entity name="ED_IMConversation" representedClassName="ED_IMConversation" parentEntity="ED_IMLoadContactEntity" syncable="YES">
+        <attribute name="conversationID" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="lastInputText" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="muted_" attributeType="Boolean" defaultValueString="NO" indexed="YES" syncable="YES"/>
+        <attribute name="sortPriority_" attributeType="Integer 32" defaultValueString="NO" indexed="YES" syncable="YES"/>
+        <attribute name="type_" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="unreadCount_" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="updateAt" attributeType="Date" indexed="YES" syncable="YES"/>
+        <relationship name="contact" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ED_IMContact" inverseName="conversation" inverseEntity="ED_IMContact" syncable="YES"/>
+        <relationship name="lastMessage" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ED_IMBaseMessage" inverseName="conversation" inverseEntity="ED_IMBaseMessage" syncable="YES"/>
+    </entity>
+    <entity name="ED_IMLoadContactEntity" representedClassName="ED_IMLoadContactEntity" isAbstract="YES" syncable="YES">
+        <attribute name="isLoadingContact_" attributeType="Boolean" defaultValueString="NO" indexed="YES" syncable="YES"/>
+        <attribute name="uniqueID" attributeType="String" indexed="YES" syncable="YES"/>
+    </entity>
+    <entity name="ED_IMMessage" representedClassName="ED_IMMessage" parentEntity="ED_IMBaseMessage" syncable="YES">
+        <attribute name="ioType_" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="noticeType_" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="senderName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="status_" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="type_" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="attachedFile" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="ED_IMAttachedFile" inverseName="message" inverseEntity="ED_IMAttachedFile" syncable="YES"/>
+    </entity>
+    <entity name="ED_IMSysMessage" representedClassName="ED_IMSysMessage" parentEntity="ED_IMBaseMessage" syncable="YES">
+        <attribute name="gid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="groupName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="status_" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="type_" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="uid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="ED_IMAttachedFile" positionX="9" positionY="135" width="128" height="105"/>
+        <element name="ED_IMAttachedImage" positionX="18" positionY="153" width="128" height="75"/>
+        <element name="ED_IMBaseMessage" positionX="36" positionY="180" width="128" height="120"/>
+        <element name="ED_IMContact" positionX="-36" positionY="9" width="128" height="180"/>
+        <element name="ED_IMConversation" positionX="0" positionY="81" width="128" height="180"/>
+        <element name="ED_IMLoadContactEntity" positionX="54" positionY="189" width="128" height="75"/>
+        <element name="ED_IMMessage" positionX="27" positionY="171" width="128" height="135"/>
+        <element name="ED_IMSysMessage" positionX="27" positionY="171" width="128" height="135"/>
+    </elements>
+</model>
