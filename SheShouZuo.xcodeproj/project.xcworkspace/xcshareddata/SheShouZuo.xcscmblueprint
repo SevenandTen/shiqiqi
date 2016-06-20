@@ -1,0 +1,32 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "195C11D50EF2189A0FEE8D0429FA48B7BA692793",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "c0575cee-6540-4b5a-a9bd-17d76a2e2b9f++2046" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "c0575cee-6540-4b5a-a9bd-17d76a2e2b9f++2046" : 0,
+    "195C11D50EF2189A0FEE8D0429FA48B7BA692793" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "FF04815E-79AA-4CF2-8C0C-081AFF5B35EC",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "c0575cee-6540-4b5a-a9bd-17d76a2e2b9f++2046" : "..\/dataSource\/%E7%A4%BA%E4%BE%8B%E9%A1%B9%E7%9B%AE",
+    "195C11D50EF2189A0FEE8D0429FA48B7BA692793" : "SheShouZuo\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SheShouZuo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SheShouZuo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:SevenandTen\/shiqiqi.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "195C11D50EF2189A0FEE8D0429FA48B7BA692793"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/10.10.152.49:9009",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "c0575cee-6540-4b5a-a9bd-17d76a2e2b9f++2046"
+    }
+  ]
+}

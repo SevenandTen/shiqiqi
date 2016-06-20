@@ -17,6 +17,12 @@
 		BC3E100A1D179AF40083819B /* baichuan_navigation_share~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3E10021D179AF40083819B /* baichuan_navigation_share~iphone.png */; };
 		BC3E100B1D179AF40083819B /* baichuan_navigation_share~iphone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3E10031D179AF40083819B /* baichuan_navigation_share~iphone@2x.png */; };
 		BC3E10611D17CC980083819B /* SQStudyOneModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3E10601D17CC980083819B /* SQStudyOneModel.m */; };
+		BC3E106F1D17EF610083819B /* UIView+ZJFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3E10641D17EF610083819B /* UIView+ZJFrame.m */; };
+		BC3E10701D17EF610083819B /* ZJContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3E10661D17EF610083819B /* ZJContentView.m */; };
+		BC3E10711D17EF610083819B /* ZJCustomLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3E10681D17EF610083819B /* ZJCustomLabel.m */; };
+		BC3E10721D17EF610083819B /* ZJScrollPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3E106A1D17EF610083819B /* ZJScrollPageView.m */; };
+		BC3E10731D17EF610083819B /* ZJScrollSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3E106C1D17EF610083819B /* ZJScrollSegmentView.m */; };
+		BC3E10741D17EF610083819B /* ZJSegmentStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3E106E1D17EF610083819B /* ZJSegmentStyle.m */; };
 		BC47E9611D165FAC009637F6 /* SQTwoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC47E9601D165FAC009637F6 /* SQTwoModel.m */; };
 		BC47E9691D1677F4009637F6 /* SQTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC47E9681D1677F4009637F6 /* SQTableCell.m */; };
 		BC47E96C1D169071009637F6 /* SQOneCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC47E96B1D169071009637F6 /* SQOneCell.m */; };
@@ -115,12 +121,6 @@
 		BCF538DB1D12CC9E00AEFECF /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF538D11D12CC9E00AEFECF /* AFURLResponseSerialization.m */; };
 		BCF538DC1D12CC9E00AEFECF /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF538D31D12CC9E00AEFECF /* AFURLSessionManager.m */; };
 		BCF538DF1D12E57E00AEFECF /* SQNetWork.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF538DE1D12E57E00AEFECF /* SQNetWork.m */; };
-		BCFC81481D154397000F70A4 /* UIView+ZJFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFC813D1D154397000F70A4 /* UIView+ZJFrame.m */; };
-		BCFC81491D154397000F70A4 /* ZJContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFC813F1D154397000F70A4 /* ZJContentView.m */; };
-		BCFC814A1D154397000F70A4 /* ZJCustomLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFC81411D154397000F70A4 /* ZJCustomLabel.m */; };
-		BCFC814B1D154397000F70A4 /* ZJScrollPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFC81431D154397000F70A4 /* ZJScrollPageView.m */; };
-		BCFC814C1D154397000F70A4 /* ZJScrollSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFC81451D154397000F70A4 /* ZJScrollSegmentView.m */; };
-		BCFC814D1D154397000F70A4 /* ZJSegmentStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFC81471D154397000F70A4 /* ZJSegmentStyle.m */; };
 		BCFC81501D154936000F70A4 /* SQHomeModelOne.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFC814F1D154936000F70A4 /* SQHomeModelOne.m */; };
 /* End PBXBuildFile section */
 
@@ -154,6 +154,18 @@
 		BC3E100C1D17A2A40083819B /* SQStudyHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQStudyHeader.h; sourceTree = "<group>"; };
 		BC3E105F1D17CC980083819B /* SQStudyOneModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQStudyOneModel.h; sourceTree = "<group>"; };
 		BC3E10601D17CC980083819B /* SQStudyOneModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQStudyOneModel.m; sourceTree = "<group>"; };
+		BC3E10631D17EF610083819B /* UIView+ZJFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZJFrame.h"; sourceTree = "<group>"; };
+		BC3E10641D17EF610083819B /* UIView+ZJFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZJFrame.m"; sourceTree = "<group>"; };
+		BC3E10651D17EF610083819B /* ZJContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJContentView.h; sourceTree = "<group>"; };
+		BC3E10661D17EF610083819B /* ZJContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJContentView.m; sourceTree = "<group>"; };
+		BC3E10671D17EF610083819B /* ZJCustomLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJCustomLabel.h; sourceTree = "<group>"; };
+		BC3E10681D17EF610083819B /* ZJCustomLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJCustomLabel.m; sourceTree = "<group>"; };
+		BC3E10691D17EF610083819B /* ZJScrollPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJScrollPageView.h; sourceTree = "<group>"; };
+		BC3E106A1D17EF610083819B /* ZJScrollPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJScrollPageView.m; sourceTree = "<group>"; };
+		BC3E106B1D17EF610083819B /* ZJScrollSegmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJScrollSegmentView.h; sourceTree = "<group>"; };
+		BC3E106C1D17EF610083819B /* ZJScrollSegmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJScrollSegmentView.m; sourceTree = "<group>"; };
+		BC3E106D1D17EF610083819B /* ZJSegmentStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJSegmentStyle.h; sourceTree = "<group>"; };
+		BC3E106E1D17EF610083819B /* ZJSegmentStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJSegmentStyle.m; sourceTree = "<group>"; };
 		BC47E95E1D16590B009637F6 /* HomeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeHeader.h; sourceTree = "<group>"; };
 		BC47E95F1D165FAC009637F6 /* SQTwoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQTwoModel.h; sourceTree = "<group>"; };
 		BC47E9601D165FAC009637F6 /* SQTwoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQTwoModel.m; sourceTree = "<group>"; };
@@ -322,18 +334,6 @@
 		BCF538D31D12CC9E00AEFECF /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
 		BCF538DD1D12E57E00AEFECF /* SQNetWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SQNetWork.h; path = ../SQNetWork.h; sourceTree = "<group>"; };
 		BCF538DE1D12E57E00AEFECF /* SQNetWork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SQNetWork.m; path = ../SQNetWork.m; sourceTree = "<group>"; };
-		BCFC813C1D154397000F70A4 /* UIView+ZJFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZJFrame.h"; sourceTree = "<group>"; };
-		BCFC813D1D154397000F70A4 /* UIView+ZJFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZJFrame.m"; sourceTree = "<group>"; };
-		BCFC813E1D154397000F70A4 /* ZJContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJContentView.h; sourceTree = "<group>"; };
-		BCFC813F1D154397000F70A4 /* ZJContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJContentView.m; sourceTree = "<group>"; };
-		BCFC81401D154397000F70A4 /* ZJCustomLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJCustomLabel.h; sourceTree = "<group>"; };
-		BCFC81411D154397000F70A4 /* ZJCustomLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJCustomLabel.m; sourceTree = "<group>"; };
-		BCFC81421D154397000F70A4 /* ZJScrollPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJScrollPageView.h; sourceTree = "<group>"; };
-		BCFC81431D154397000F70A4 /* ZJScrollPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJScrollPageView.m; sourceTree = "<group>"; };
-		BCFC81441D154397000F70A4 /* ZJScrollSegmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJScrollSegmentView.h; sourceTree = "<group>"; };
-		BCFC81451D154397000F70A4 /* ZJScrollSegmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJScrollSegmentView.m; sourceTree = "<group>"; };
-		BCFC81461D154397000F70A4 /* ZJSegmentStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJSegmentStyle.h; sourceTree = "<group>"; };
-		BCFC81471D154397000F70A4 /* ZJSegmentStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJSegmentStyle.m; sourceTree = "<group>"; };
 		BCFC814E1D154936000F70A4 /* SQHomeModelOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQHomeModelOne.h; sourceTree = "<group>"; };
 		BCFC814F1D154936000F70A4 /* SQHomeModelOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQHomeModelOne.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -363,6 +363,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BC3E10621D17EF610083819B /* ZJScrollPageView */ = {
+			isa = PBXGroup;
+			children = (
+				BC3E10631D17EF610083819B /* UIView+ZJFrame.h */,
+				BC3E10641D17EF610083819B /* UIView+ZJFrame.m */,
+				BC3E10651D17EF610083819B /* ZJContentView.h */,
+				BC3E10661D17EF610083819B /* ZJContentView.m */,
+				BC3E10671D17EF610083819B /* ZJCustomLabel.h */,
+				BC3E10681D17EF610083819B /* ZJCustomLabel.m */,
+				BC3E10691D17EF610083819B /* ZJScrollPageView.h */,
+				BC3E106A1D17EF610083819B /* ZJScrollPageView.m */,
+				BC3E106B1D17EF610083819B /* ZJScrollSegmentView.h */,
+				BC3E106C1D17EF610083819B /* ZJScrollSegmentView.m */,
+				BC3E106D1D17EF610083819B /* ZJSegmentStyle.h */,
+				BC3E106E1D17EF610083819B /* ZJSegmentStyle.m */,
+			);
+			path = ZJScrollPageView;
+			sourceTree = "<group>";
+		};
 		BC52EC761D14291F00D9513D /* NetWork */ = {
 			isa = PBXGroup;
 			children = (
@@ -893,7 +912,7 @@
 		BCF538BF1D12CC6400AEFECF /* Third */ = {
 			isa = PBXGroup;
 			children = (
-				BCFC813B1D154397000F70A4 /* ZJScrollPageView */,
+				BC3E10621D17EF610083819B /* ZJScrollPageView */,
 				BC52EC771D1429E400D9513D /* MJRefresh */,
 				BC52ECA41D1429E400D9513D /* Reachability */,
 				BC52ECA71D1429E400D9513D /* SDWebImage */,
@@ -926,26 +945,6 @@
 				BCF538D31D12CC9E00AEFECF /* AFURLSessionManager.m */,
 			);
 			path = AFNetworking;
-			sourceTree = "<group>";
-		};
-		BCFC813B1D154397000F70A4 /* ZJScrollPageView */ = {
-			isa = PBXGroup;
-			children = (
-				BCFC813C1D154397000F70A4 /* UIView+ZJFrame.h */,
-				BCFC813D1D154397000F70A4 /* UIView+ZJFrame.m */,
-				BCFC813E1D154397000F70A4 /* ZJContentView.h */,
-				BCFC813F1D154397000F70A4 /* ZJContentView.m */,
-				BCFC81401D154397000F70A4 /* ZJCustomLabel.h */,
-				BCFC81411D154397000F70A4 /* ZJCustomLabel.m */,
-				BCFC81421D154397000F70A4 /* ZJScrollPageView.h */,
-				BCFC81431D154397000F70A4 /* ZJScrollPageView.m */,
-				BCFC81441D154397000F70A4 /* ZJScrollSegmentView.h */,
-				BCFC81451D154397000F70A4 /* ZJScrollSegmentView.m */,
-				BCFC81461D154397000F70A4 /* ZJSegmentStyle.h */,
-				BCFC81471D154397000F70A4 /* ZJSegmentStyle.m */,
-			);
-			name = ZJScrollPageView;
-			path = "../../../../dataSource/示例项目/礼物说/礼物说/Other/lib/ZJScrollPageView";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1127,10 +1126,8 @@
 				BCF529941D1297A400AEFECF /* ViewController.m in Sources */,
 				BC47E9751D16B99F009637F6 /* SQMessageController.m in Sources */,
 				BC52ECEA1D1429E400D9513D /* UIImageView+HighlightedWebCache.m in Sources */,
-				BCFC81481D154397000F70A4 /* UIView+ZJFrame.m in Sources */,
 				BCF538D81D12CC9E00AEFECF /* AFSecurityPolicy.m in Sources */,
 				BC52ECDE1D1429E400D9513D /* NSData+ImageContentType.m in Sources */,
-				BCFC814C1D154397000F70A4 /* ZJScrollSegmentView.m in Sources */,
 				BC47E9721D169F99009637F6 /* SQThreeCell.m in Sources */,
 				BCF538A61D12C07D00AEFECF /* SQImageController.m in Sources */,
 				BCF538DF1D12E57E00AEFECF /* SQNetWork.m in Sources */,
@@ -1139,6 +1136,8 @@
 				BC52ECCB1D1429E400D9513D /* MJRefreshComponent.m in Sources */,
 				BCF529911D1297A400AEFECF /* AppDelegate.m in Sources */,
 				BC52ECE01D1429E400D9513D /* SDWebImageCompat.m in Sources */,
+				BC3E10741D17EF610083819B /* ZJSegmentStyle.m in Sources */,
+				BC3E10711D17EF610083819B /* ZJCustomLabel.m in Sources */,
 				BC52ECE41D1429E400D9513D /* SDWebImageManager.m in Sources */,
 				BC52ECD11D1429E400D9513D /* MJRefreshBackGifFooter.m in Sources */,
 				BC52ECDF1D1429E400D9513D /* SDImageCache.m in Sources */,
@@ -1147,24 +1146,22 @@
 				BC52ECDC1D1429E400D9513D /* Reachability.m in Sources */,
 				BCF538A31D12C06600AEFECF /* SQFindController.m in Sources */,
 				BC52ECE21D1429E400D9513D /* SDWebImageDownloader.m in Sources */,
-				BCFC81491D154397000F70A4 /* ZJContentView.m in Sources */,
 				BCF529C91D12A3D600AEFECF /* UIImage+SQImage.m in Sources */,
 				BC52ECDB1D1429E400D9513D /* UIView+MJExtension.m in Sources */,
-				BCFC814A1D154397000F70A4 /* ZJCustomLabel.m in Sources */,
 				BCF538DC1D12CC9E00AEFECF /* AFURLSessionManager.m in Sources */,
 				BC47E96F1D169989009637F6 /* SQThreeModel.m in Sources */,
 				BC52ECE81D1429E400D9513D /* UIImage+MultiFormat.m in Sources */,
+				BC3E106F1D17EF610083819B /* UIView+ZJFrame.m in Sources */,
 				BC52ECD61D1429E400D9513D /* MJRefreshStateHeader.m in Sources */,
 				BC52ECE91D1429E400D9513D /* UIImage+WebP.m in Sources */,
-				BCFC814D1D154397000F70A4 /* ZJSegmentStyle.m in Sources */,
 				BC52ECD21D1429E400D9513D /* MJRefreshBackNormalFooter.m in Sources */,
-				BCFC814B1D154397000F70A4 /* ZJScrollPageView.m in Sources */,
 				BC52ECDA1D1429E400D9513D /* UIScrollView+MJRefresh.m in Sources */,
 				BC52ECCF1D1429E400D9513D /* MJRefreshAutoNormalFooter.m in Sources */,
 				BCF538DB1D12CC9E00AEFECF /* AFURLResponseSerialization.m in Sources */,
 				BC52ECD51D1429E400D9513D /* MJRefreshNormalHeader.m in Sources */,
 				BC52ECD01D1429E400D9513D /* MJRefreshAutoStateFooter.m in Sources */,
 				BC52ECCA1D1429E400D9513D /* MJRefreshBackFooter.m in Sources */,
+				BC3E10731D17EF610083819B /* ZJScrollSegmentView.m in Sources */,
 				BC47E9611D165FAC009637F6 /* SQTwoModel.m in Sources */,
 				BC52ECD41D1429E400D9513D /* MJRefreshGifHeader.m in Sources */,
 				BC3E10611D17CC980083819B /* SQStudyOneModel.m in Sources */,
@@ -1177,12 +1174,14 @@
 				BC52ECE71D1429E400D9513D /* UIImage+GIF.m in Sources */,
 				BC52ECCC1D1429E400D9513D /* MJRefreshFooter.m in Sources */,
 				BC47E9691D1677F4009637F6 /* SQTableCell.m in Sources */,
+				BC3E10721D17EF610083819B /* ZJScrollPageView.m in Sources */,
 				BCF538A91D12C09300AEFECF /* SQStudyController.m in Sources */,
 				BC47E96C1D169071009637F6 /* SQOneCell.m in Sources */,
 				BC52ECD31D1429E400D9513D /* MJRefreshBackStateFooter.m in Sources */,
 				BC52ECDD1D1429E400D9513D /* MKAnnotationView+WebCache.m in Sources */,
 				BCF538DA1D12CC9E00AEFECF /* AFURLRequestSerialization.m in Sources */,
 				BC52ECE31D1429E400D9513D /* SDWebImageDownloaderOperation.m in Sources */,
+				BC3E10701D17EF610083819B /* ZJContentView.m in Sources */,
 				BC52ECCD1D1429E400D9513D /* MJRefreshHeader.m in Sources */,
 				BCF538D71D12CC9E00AEFECF /* AFNetworkReachabilityManager.m in Sources */,
 				BC52ECEB1D1429E400D9513D /* UIImageView+WebCache.m in Sources */,
